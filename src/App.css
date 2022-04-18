@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+section {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+#over_all_div {
+  height: 100vh;
+  margin: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+[contenteditable="true"]:focus {
+  border: none;
+  outline: none;
+}
+
+.button_enable {
+  border: none;
+  /* border-radius: 10px; */
+  padding: 10px;
+  background-color: rgb(95, 54, 209);
+  margin-top: -35px;
+  cursor: pointer;
+  color: #ffff;
+}
+.save {
+  background-color: blueviolet;
+  /* border-radius: 10px; */
+  margin-top: -35px;
+  /* margin-left: -10px; */
+
+  cursor: pointer;
+  color: #ffff;
+}
+.delete {
+  border: none;
+  border-radius: 10px;
+
+  padding: 5px;
+  background-color: red;
+
+  margin-top: -35px;
+  margin-left: 15px;
+
+  cursor: pointer;
+  color: #ffff;
+}
+
+.button_Enable {
+  border: none;
+  border-radius: 3px;
+  top: 10px;
+  padding: 10px;
+  background-color: rgb(95, 54, 209);
+  margin: 3px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.button_dissable {
+  display: flex;
+  border: none;
+  /* border-radius: 10px; */
+  padding: 10px;
+  top: 20px;
+  background-color: rgb(102, 102, 102);
+  margin-top: -35px;
+  margin-left: -25px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.button_enable:hover {
+  background-color: rgb(30, 8, 156);
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  /* Position the tooltip */
+  /* position: absolute;
+  z-index: 1;*/
+  top: 100%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip {
+  color: blue;
+  display: inline-block;
+  position: relative;
+  text-decoration: underline;
+}
+
+.Linkmodel {
+  background-color: rgb(245, 244, 244);
+  width: 250px;
+  padding: 5px;
+  position: sticky;
+  /* border-radius: 10px; */
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid lightblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Link_title {
+  /* background-color: rgb(103, 132, 175); */
+  display: flex;
+  margin: 10px;
+  justify-content: flex-start;
+  color: blue;
+  cursor: pointer;
+  bottom: 1px;
+}
+
+.positionend {
+  display: flex;
+  justify-content: flex-end;
+}
+.Link_title_close {
+  color: #ffff;
+  background-color: red;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 5px;
+  position: absolute;
+  background: red;
+  color: white;
+  top: 10px;
+  right: 10px;
+}
+
+.Link_title_close:hover {
+  color: black;
+}
+.Link_title-gird {
+  display: grid;
+  grid-template-columns: 190px 13px;
+}
+
+#word {
+  padding: 5px;
+  margin-left: -60px;
+  border-radius: 3px;
+  border: 1px solid lightblue;
+}
+#link {
+  display: flex;
+  padding: 5px;
+  margin-left: 10px;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid lightblue;
+}
+
+.tooltipbtn {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #1e089c;
+}
+
+.tooltipbtn .tooltiptextbtn {
+  visibility: hidden;
+  width: 120px;
+  background-color: #1e089c;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltipbtn .tooltiptextbtn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #1e089c;
+}
+.tooltipbtn:hover .tooltiptextbtn {
+  visibility: visible;
+}
+
+#mydivheader {
+  cursor: move !important;
+  height: 40px;
+  margin: -10px;
+  background-color: lightblue;
+}
